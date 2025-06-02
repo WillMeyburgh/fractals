@@ -49,4 +49,3 @@ poetry run python main.py
 
 - The animation will start automatically, zooming into a randomly selected Mandelbrot or Julia set.
 - Press the **left arrow key** or **right arrow key** on your keyboard to reset the zoom and generate a new random fractal.
-# fractals
