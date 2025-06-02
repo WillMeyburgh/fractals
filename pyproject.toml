@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fractals"
+version = "0.1.0"
+description = ""
+authors = ["Will Meyburgh <annekinmeyburgh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.6"
+matplotlib = "^3.10.3"
+numba = "^0.61.2"
+gmpy2 = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

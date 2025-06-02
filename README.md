@@ -2,7 +2,7 @@
 
 This project visualizes Mandelbrot and Julia sets with interactive zooming capabilities, high precision calculations, and performance optimizations.
 
-## Features
+![alt text](image.png)
 
 - **Dynamic Fractal Generation:** Randomly generates either a Mandelbrot set (10% chance) or a Julia set (90% chance) each time the program starts.
 - **High Precision Zoom:** Utilizes the `gmpy2` library for arbitrary-precision floating-point arithmetic, allowing for deep and detailed zooms without precision loss.
@@ -36,7 +36,7 @@ To run this project, you need to have [Poetry](https://python-poetry.org/docs/#i
 
 2. **Install dependencies using Poetry:**
    ```bash
-   poetry install
+   poetry install --no-root
    ```
 
 ## Usage
